@@ -1,0 +1,40 @@
+:root{
+   --primaryColor: #202020;
+   --secondarycolor: #4c4c4c;
+   --textPimarycolor: #4e76b1;
+   --textSecondarycolor: #ffffff9a;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--primaryColor);
+    color: var(--textPimarycolor);
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* navbar */
+.navContanier{
+    width: 100%;
+    background: var(--secondarycolor);
+}
+nav{
+    width: 80%;
+    display: flex;
+    
+}
+.logonav a img{
+    width: 100px;
+}
+.navContanier nav ul li{
+    display: inline-block;
+    margin: 0 4rem;
+    font-size: 1.1rem;
+    font-weight: 600; 
+}
