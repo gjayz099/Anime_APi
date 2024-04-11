@@ -75,7 +75,7 @@ namespace anime_api.controllers
         }
 
         [HttpPost]
-        [Authorize]
+        // [Authorize]
         public async Task<ActionResult<IEnumerable<Anime>>> PostAnime(AnimeDTO animeDTO)
         {
             try

@@ -1,0 +1,26 @@
+[
+    {
+        "title": "string",
+        "description": "string",
+        "premiered": "string",
+        "episodes": 0,
+        "producers": "string",
+        "imageDTO": {
+          "img_name": "string"
+        },
+        "typeDTO": {
+          "type_name": "string"
+        },
+        "contryDTO": {
+          "contry_name": "string"
+        },
+        "statusDTO": {
+          "status_name": "string"
+        },
+        "genreDTO": [
+          {
+            "genre_name": "string"
+          }
+        ]
+      }
+]
